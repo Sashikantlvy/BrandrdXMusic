@@ -2,13 +2,13 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from strings import get_string, helpers
-from BranderXMusic import app
+from BrandrdXMusic import app
 from pyrogram.types import InputMediaVideo
-from BranderXMusic.misc import SUDOERS
-from BranderXMusic.utils.database import add_sudo, remove_sudo
-from BranderXMusic.utils.decorators.language import language
-from BranderXMusic.utils.extraction import extract_user
-from BranderXMusic.utils.inline import close_markup
+from BrandrdXMusic.misc import SUDOERS
+from BrandrdXMusic.utils.database import add_sudo, remove_sudo
+from BrandrdXMusic.utils.decorators.language import language
+from BrandrdXMusic.utils.extraction import extract_user
+from BrandrdXMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
